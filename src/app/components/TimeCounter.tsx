@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import dynamic from 'next/dynamic'
 import { MapPin } from "@deemlol/next-icons";
  
 
@@ -10,7 +9,7 @@ type TimeCounterProps = {
 };
 
 
-export const time = ({time: initial}: TimeCounterProps) => {
+export const useTime = ({time: initial}: TimeCounterProps) => {
   const [currentTime, setCurrentTime] = useState(new Date(initial));
 
 
@@ -33,7 +32,7 @@ export default function TimeCounter() {
   return (
     <div suppressHydrationWarning={true} className="col-start-1 pt-8 md:text-left">
       <div className="flex gap-4 items-center md:justify-start">
-        <MapPin size={12} color="#FFFFFF" /> PDX: {time({ time: Date.now() }) }
+        <MapPin size={12} color="#FFFFFF" /> PDX: {useTime({ time: Date.now() }) }
      </div>
       
     </div>

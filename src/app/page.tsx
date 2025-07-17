@@ -1,13 +1,13 @@
 "use client"
 
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import BgGradient from './components/BackgroundGradient';
 import SocialLinks from './components/SocialLinks';
-import ProojectLinks from './components/ProjectList';
-import ProjectList from "./components/ProjectList";
+// import ProojectLinks from './components/ProjectList';
+// import ProjectList from "./components/ProjectList";
 import TimeCounter from "./components/TimeCounter";
-import BlogList from "./components/BlogList";
+// import BlogList from "./components/BlogList";
 import { motion } from "motion/react";
 
 export default function Home() {
