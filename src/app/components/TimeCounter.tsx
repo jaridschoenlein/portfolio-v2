@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import { MapPin } from "@deemlol/next-icons";
+// import { MapPin } from "@deemlol/next-icons";
  
 
 type TimeCounterProps = {

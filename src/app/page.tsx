@@ -10,7 +10,7 @@ import SocialLinks from './components/SocialLinks';
 // import ProjectList from "./components/ProjectList";
 import TimeCounter from "./components/TimeCounter";
 // import BlogList from "./components/BlogList";
-import { motion } from "motion/react";
+// import { motion } from "motion/react";
 import SplitType from "split-type";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
