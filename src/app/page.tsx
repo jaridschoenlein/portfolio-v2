@@ -71,11 +71,11 @@ export default function Home() {
 
       <div 
 
-        className="col-span-6 md:col-span-4 row-start-1 m-2 home-text col"  ref={container}>
+        className="col-span-6 md:col-span-5 lg:col-span-4 row-start-1 m-2 home-text col"  ref={container}>
         <div className="size-8 bg-[#ddd8b1] rounded-full mb-8"></div>
-        <p className="font-extrabold md:text-5xl mb-8">Jarid Schoenlein is a design engineer working at the intersection of design and development. His passion lies in building digital products that blend function with aesthetics.</p>
-        <p className="font-extrabold md:text-5xl mb-8 decorate">Currently working at <Link className="" href="https://www.dickhannah.com/" target="_blank">Dick Hannah Dealerships</Link> building interfaces and an in-house design system.</p>
-        <p className="font-extrabold md:text-5xl mb-8">Full portfolio under development.</p>
+        <p className="font-extrabold md:text-3xl lg:text-4xl mb-8">Jarid Schoenlein is a design engineer working at the intersection of design and development. His passion lies in building digital products that blend function with aesthetics.</p>
+        <p className="font-extrabold md:text-3xl lg:text-4xl mb-8 decorate">Currently working at <Link className="" href="https://www.dickhannah.com/" target="_blank">Dick Hannah Dealerships</Link> building interfaces and an in-house design system.</p>
+        <p className="font-extrabold md:text-3xl lg:text-4xl mb-8">Full portfolio under development.</p>
       
       <SocialLinks />
 
