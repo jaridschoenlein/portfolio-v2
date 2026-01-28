@@ -32,7 +32,7 @@ export default function TimeCounter() {
   return (
     <div suppressHydrationWarning={true} className="col-start-1 pt-8 md:text-left">
       <div className="flex gap-4 items-center md:justify-start">
-        <p className="font-extrabold md:text-3xl lg:text-4xl">
+        <p className="font-extrabold ">
         🌲 PDX: {useTime({ time: Date.now() }) }
         </p>
      </div>

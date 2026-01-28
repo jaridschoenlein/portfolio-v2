@@ -4,7 +4,7 @@
 import { useRef } from "react";
 
 import Link from "next/link";
-import BgGradient from './components/BackgroundGradient';
+//import BgGradient from './components/BackgroundGradient';
 import SocialLinks from './components/SocialLinks';
 // import ProojectLinks from './components/ProjectList';
 // import ProjectList from "./components/ProjectList";
@@ -57,25 +57,26 @@ export default function Home() {
 
 
   return (
-    <main className="sm:block md:grid grid-cols-6 gap-4 p-14">
+    <main className="flex flex-col justify-center items-center gap-4 p-14 max-w-[800px] mx-auto">
 
+{/* comment out the background gradient */}
 
-      <BgGradient
+      {/* <BgGradient
         speed={2}
         scale={.75}
-        color="#45443A"
-        noiseIntensity={1}
-        rotation={.5}
-      />
+        color="#45443A" */}
+        {/* noiseIntensity={1} */}
+        {/* rotation={.5} */}
+      {/* /> */}
     
 
       <div 
 
-        className="col-span-6 md:col-span-5 lg:col-span-4 row-start-1 m-2 home-text col"  ref={container}>
+        className="flex flex-col home-text col"  ref={container}>
         <div className="size-8 bg-[#ddd8b1] rounded-full mb-8"></div>
-        <p className="font-extrabold md:text-3xl lg:text-4xl mb-8">Jarid Schoenlein is a design engineer working at the intersection of design and development. His passion lies in building digital products that blend function with aesthetics.</p>
-        <p className="font-extrabold md:text-3xl lg:text-4xl mb-8 decorate">Currently working at <Link className="" href="https://www.dickhannah.com/" target="_blank">Dick Hannah Dealerships</Link> building interfaces and an in-house design system.</p>
-        <p className="font-extrabold md:text-3xl lg:text-4xl mb-8">Full portfolio under development.</p>
+        <p className="mb-8">Jarid Schoenlein is a design engineer working at the intersection of design and development. His passion lies in building digital products that blend function with aesthetics.</p>
+        <p className="mb-8 decorate">Currently working at <Link className="" href="https://www.dickhannah.com/" target="_blank">Dick Hannah Dealerships</Link> building interfaces and an in-house design system.</p>
+        <p className="mb-8">Full portfolio under development.</p>
       
       <SocialLinks />
 
